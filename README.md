@@ -1,7 +1,6 @@
+# 🌍 InfoVis Redesign Project: global temperature map
 
-# 🌍 Global Land Temperature by Country
-
--![Global Temperature Poster](poster.png)
+![Global Temperature Poster](poster.png)
 
 ## 📌 Project Overview
 This project explores long-term trends in land surface temperatures across different countries using the **GlobalLandTemperatureByCountry** dataset. It also includes a poster designed to visually communicate key findings and raise awareness about climate change.
