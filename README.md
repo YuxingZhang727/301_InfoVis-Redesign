@@ -18,5 +18,8 @@ This project redesigns the static "Four Twenty Seven" heat stress map into an in
 
 ## 🛠️ Tools & Technologies
 
-- ![Redesign Process](Redesign Workflow.png)
-- describe how to replicate
+- ![Redesign Process](Redesign_Workflow.png)
+- How to replicate:
+  - Download the Dataset
+  - Prepare the environment(`install.packages(c("plotly", "dplyr", "lubridate", "ggplot2", "leaflet")`)
+  - Follow the code provided
