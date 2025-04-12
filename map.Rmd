@@ -1,0 +1,45 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(leaflet)
+library(ggplot2)
+library(plotly)
+library(dplyr)
+library(lubridate)
+```
+
+```{r}
+data <- read.csv("/Users/zhangyuxing/Desktop/climate data/GlobalLandTemperaturesByCountry.csv")
+df_clean <- data %>%
+  filter(!is.na(AverageTemperature)) %>%
+  mutate(Year = year(as.Date(dt))) %>%
+  group_by(Country, Year) %>%
+  summarize(AvgTemp = mean(AverageTemperature), .groups = "drop")
+
+```
+
+```{r}
+fig <- plot_ly(
+  data = df_clean,
+  type = 'choropleth',
+  locations = ~Country,
+  locationmode = 'country names',
+  z = ~AvgTemp,
+  colorbar = list(title = "Avg Temp (°C)"),
+  colorscale = 'RdYlBu',
+  frame = ~Year,
+  text = ~paste(Country, "<br>Year:", Year, "<br>Temp:", round(AvgTemp, 2), "°C")
+)
+fig <- fig %>%
+  layout(
+    title = 'Average Land Temperature by Country Over Time',
+    geo = list(
+      showframe = FALSE,
+      projection = list(type = 'natural earth')
+    )
+  )
+fig
+```
