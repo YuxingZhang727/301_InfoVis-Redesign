@@ -11,10 +11,12 @@ This project redesigns the static "Four Twenty Seven" heat stress map into an in
 - **Source**: [Berkeley Earth via Kaggle](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data)
 - **Description**: 
 - **Key columns**:
-  - `dt`: Date  
-  - `AverageTemperature`: Monthly average land temperature (in Celsius)  
-  - `AverageTemperatureUncertainty`: Margin of error  
-  - `Country`: Country name  
+| Column | Type | Description |
+|--------|------|-------------|
+| `dt` | Date | Measurement date (YYYY-MM-DD) |
+| `AverageTemperature` | Numeric | Mean temperature in °C |
+| `AverageTemperatureUncertainty` | Numeric | 95% confidence interval |
+| `Country` | Character | Country/territory name |
 
 ## 🛠️ Tools & Technologies
 
