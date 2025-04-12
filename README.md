@@ -18,5 +18,5 @@ This project redesigns the static "Four Twenty Seven" heat stress map into an in
 
 ## 🛠️ Tools & Technologies
 
-- ![Redesign Process](Redesign_Workflow.png)
+- ![Redesign Process](Redesign Workflow.png)
 - describe how to replicate
