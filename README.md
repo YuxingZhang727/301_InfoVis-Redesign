@@ -1,11 +1,9 @@
-# 🌍 InfoVis Redesign Project: global temperature map
+# 🌍 InfoVis Redesign Project: Global Temperature Map
 
 ![Global Temperature Poster](poster.png)
 
 ## 📌 Project Overview
-This project explores long-term trends in land surface temperatures across different countries using the **GlobalLandTemperatureByCountry** dataset. It also includes a poster designed to visually communicate key findings and raise awareness about climate change.
-
-Using historical temperature data from 1743 to 2013, this project performs data analysis and visualization to identify patterns and anomalies in global land temperatures. The accompanying poster serves as an educational tool for public presentations and academic outreach.
+This project redesigns the static "Four Twenty Seven" heat stress map into an interactive global temperature visualization using R language, enabling users to explore historical land temperature data (1950-2024) through dynamic time sliders, region filters, and tooltip metrics. Built with R (ggplot2, leaflet, etc.) and base layers, the enhanced visualization improves upon the original by implementing color scales, time comparisons, and intuitive interactivity - transforming a limited static map into an informative analytical tool for climate risk assessment. 
 
 ## 📊 Dataset Information
 
