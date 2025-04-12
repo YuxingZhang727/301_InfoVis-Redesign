@@ -10,13 +10,13 @@ This project redesigns the static "Four Twenty Seven" heat stress map into an in
 - **Filename**: `GlobalLandTemperatureByCountry.csv`  
 - **Source**: [Berkeley Earth via Kaggle](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data)
 - **Description**: 
-- **Key columns**:
-| Column | Type | Description |
-|--------|------|-------------|
-| `dt` | Date | Measurement date (YYYY-MM-DD) |
-| `AverageTemperature` | Numeric | Mean temperature in °C |
-| `AverageTemperatureUncertainty` | Numeric | 95% confidence interval |
-| `Country` | Character | Country/territory name |
+- **Key Variables**:
+  | Column                       | Type      | Description                         |
+  |-----------------------------|-----------|-------------------------------------|
+  | `dt`                        | Date      | Measurement date (YYYY-MM-DD)       |
+  | `AverageTemperature`        | Numeric   | Mean temperature in °C              |
+  | `AverageTemperatureUncertainty` | Numeric   | 95% confidence interval         |
+  | `Country`                   | Character | Country or territory name           |
 
 ## 🛠️ Tools & Technologies
 
