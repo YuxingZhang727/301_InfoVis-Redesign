@@ -7,7 +7,7 @@ This project redesigns the static "Four Twenty Seven" heat stress map into an in
 - This is the course project for INFOSCI 301 – Data Visualization and Information Aesthetics,
 instructed by Prof. Luyao Zhang at Duke Kunshan University, Spring 2025.
 ## 🙏 Acknowledgments
-- This project uses the Berkeley Earth Global Temperature dataset and was inspired by the goal of making climate data more accessible and visually intuitive. Thanks to open data advocates and the R community for the tools and knowledge that made this possible. I’m also grateful to Professor Luyao Zhang for her guidance, to my classmates for their valuable feedback, and to guest speakers David Schaaf and Dongping Liu for their insightful presentations on education technology and data application.
+- This project uses the Berkeley Earth Global Temperature dataset and was inspired by the goal of making climate data more accessible and visually intuitive. Thanks to open data advocates and the R community for the tools and knowledge that made this possible. I’m also grateful to Professor Luyao Zhang for her guidance, to my classmates for their valuable feedback, and to guest speakers David Schaaf and Dongping Liu for their insightful presentations on education technology and data application. This project has also benefitted from the conversations at the Digital Technology for Sustainability Symposium at Duke Kunshan University on April 18. We especially thank Prof. Ming-Chun Huang for his insights that helped improve the work, and the conference organizers for making the symposium happen.
 
 ## 📊 Dataset Information
 - **Filename**: `GlobalLandTemperatureByCountry.csv`  
