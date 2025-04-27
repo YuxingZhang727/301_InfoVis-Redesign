@@ -2,7 +2,7 @@
 ## 📌 Project Overview
 This project redesigns the static "Four Twenty Seven" heat stress map into an interactive global temperature visualization using R language, enabling users to explore historical land temperature data (1950-2024) through dynamic time sliders, region filters, and tooltip metrics. Built with R (ggplot2, leaflet, etc.) and base layers, the enhanced visualization improves upon the original by implementing color scales, time comparisons, and intuitive interactivity - transforming a limited static map into an informative analytical tool for climate risk assessment. 
 
-![Global Temperature Poster](Poster.png)
+![Global Temperature Poster](Poster.pdf)
 ## 📈Disclaimer
 - This is the course project for INFOSCI 301 – Data Visualization and Information Aesthetics,
 instructed by Prof. Luyao Zhang at Duke Kunshan University, Spring 2025.
@@ -46,7 +46,7 @@ The museum's focus on **ethics** and **responsible storytelling** also encourage
 
 Moreover, the museum experience emphasized the importance of **digital humanities** and the power of storytelling in making science more relatable to the general public. In future iterations of this project, I aim to explore how digital technologies can further bridge the gap between scientific knowledge and public understanding, particularly in the context of **biodiversity** and **community-based learning**.
 
-## Future Research Directions 📚
+## 📚 Future Research Directions 
 
 Looking forward, I see potential for expanding this project by integrating it with digital humanities initiatives and exploring its application in community-based learning. Specifically, future work could:
 - Incorporate more detailed environmental data, such as biodiversity metrics, to visualize the impacts of temperature changes on ecosystems.
